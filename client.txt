@@ -9,7 +9,6 @@ replace only "TRANSLATE" text!
 replace only "TRANSLATE" text!
 replace only "TRANSLATE" text!
 
-
 "lang"
 {
 	"Language" "Lenguaje"
@@ -251,5 +250,14 @@ replace only "TRANSLATE" text!
 		
 		"GameUI_MouseRaw_ToolTip"	"Leer el movimiento del mouse directamente desde él, omitiendo su configuración en el panel de control y proporcionando un movimiento más confiable del mouse."
 		"[english]GameUI_MouseRaw_ToolTip"	"Raw input reads mouse movement directly from the device, bypassing control panel mouse settings, and providing more reliable mouse movement."
+		
+		"ClientMod_MotdMuteAudio"	"Mutear sonidos"
+		"[english]ClientMod_MotdMuteAudio"	"Mute sounds"
+		
+		"ClientMod_FlashWindow" "Iluminar el ícono del juego al reaparecer"
+		"[english]ClientMod_FlashWindow"	"Flash window if a player is respawn"
+		
+		"ClientMod_FlashWindow_ToolTip"	"Útil para saber cuando regresar si saliste a otra ventana"
+		"[english]ClientMod_FlashWindow_ToolTip"	"So for example you can understand when it's time to return to the game"
 	}
 }
