@@ -1,0 +1,255 @@
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+replace only "TRANSLATE" text!
+
+
+"lang"
+{
+	"Language" "Lenguaje"
+	"Tokens"
+	{
+		"ClientMod_RedCrosshair"		"Rojo"
+		"[english]ClientMod_RedCrosshair"		"Red"
+		
+		"ClientMod_GreenCrosshair"		"Verde"
+		"[english]ClientMod_GreenCrosshair"		"Green"
+		
+		"ClientMod_BlueCrosshair"		"Azul"
+		"[english]ClientMod_BlueCrosshair"		"Blue"
+		
+		"ClientMod_AlphaCrosshair"		"Transparencia"
+		"[english]ClientMod_AlphaCrosshair"		"Alpha"
+		
+		"ClientMod_SniperCrosshair"		"Mira en francotirador"
+		"[english]ClientMod_SniperCrosshair"		"Сrosshair on sniper"
+		
+		"ClientMod_DynamicCrosshair"		"Mira dinámica"
+		"[english]ClientMod_DynamicCrosshair"		"Dynamic crosshair"
+		
+		"ClientMod_DynamicShotCrosshair"		"Expansión en disparo"
+		"[english]ClientMod_DynamicShotCrosshair"		"Expansion in shoot
+		
+		"ClientMod_Trash"		""
+		"[english]ClientMod_Trash"		""
+		
+		"ClientMod_DotCrosshair"		"Punto"
+		"[english]ClientMod_DotCrosshair"		"Dot"
+		
+		"ClientMod_StyleCrosshair"		"Multicolor"
+		"[english]ClientMod_StyleCrosshair"		"Rainbow"
+		
+		"ClientMod_ThicknessDotCrosshair"		"Grosor del punto"
+		"[english]ClientMod_ThicknessDotCrosshair"		"Thickness dot"
+		
+		"ClientMod_ThicknessCrosshair"		"Grosor"
+		"[english]ClientMod_ThicknessCrosshair"		"Thickness"
+		
+		"ClientMod_ThicknessAddCrosshair"		"Mira adicional"
+		"[english]ClientMod_ThicknessAddCrosshair"		"Additional crosshair"
+		
+		"ClientMod_SizeCrosshair"		"Tamaño"
+		"[english]ClientMod_SizeCrosshair"		"Size"
+		
+		"ClientMod_OutlineCrosshair"		"Borde"
+		"[english]ClientMod_OutlineCrosshair"		"Outline"
+		
+		"ClientMod_OutlineColorCrosshair"		"Color del borde"
+		"[english]ClientMod_OutlineColorCrosshair"		"Outline color"
+		
+		"ClientMod_MainColorCrosshair"		"Color de la mira"
+		"[english]ClientMod_MainColorCrosshair"		"Crosshair color"
+		
+		"ClientMod_SpreadCrosshair"		"Espaciado"
+		"[english]ClientMod_SpreadCrosshair"		"Window size"
+		
+		"ClientMod_DynamicCrosshairToolTip"		"Expansión de la mira cuando corres y saltas"
+		"[english]ClientMod_DynamicCrosshairToolTip"		"Expansion of crosshair while running and jumping"
+		
+		"ClientMod_SniperCrosshairToolTip"		"Exhibir mira en rifles de francotirador"
+		"[english]ClientMod_SniperCrosshairToolTip"		"Show crosshair on sniper rifle"
+		
+		"ClientMod_CrosshairPage"		"Mira"
+		"[english]ClientMod_CrosshairPage"		"Crosshair"
+		
+		"ClientMod_RadarPage"		"Radar"
+		"[english]ClientMod_RadarPage"		"Radar"
+		
+		"ClientMod_GuiPage"		"Gui"
+		"[english]ClientMod_GuiPage"		"Gui"
+		
+		"ClientMod_OtherPage"		"Otros"
+		"[english]ClientMod_OtherPage"		"Other"
+		
+		"ClientMod_Enabled"		"Habilitado"
+		"[english]ClientMod_Enabled"		"Enabled"
+		
+		"ClientMod_GreenRadar"		"Verde"
+		"[english]ClientMod_GreenRadar"		"Green"
+		
+		"ClientMod_CenterRadar"		"Centrado"
+		"[english]ClientMod_CenterRadar"		"Always centering"
+		
+		"ClientMod_ShowNameRadar"		"Mostrar nombre"
+		"[english]ClientMod_ShowNameRadar"		"Show name"
+		
+		"ClientMod_ShowTrailRadar"		"Mostrar rastro"
+		"[english]ClientMod_ShowTrailRadar"		"Show trail"
+		
+		"ClientMod_ShowHealthRadar"		"Mostrar vida"
+		"[english]ClientMod_ShowHealthRadar"		"Show health"
+		
+		"ClientMod_BackgroundRadar"		"Fondo"
+		"[english]ClientMod_BackgroundRadar"		"Background"
+		
+		"ClientMod_SizeRadar"		"Tamaño"
+		"[english]ClientMod_SizeRadar"		"Size"
+		
+		"ClientMod_ScaleRadar"		"Escala"
+		"[english]ClientMod_ScaleRadar"		"Scale"
+		
+		"ClientMod_NameSizeRadar"		"Tamaño del nombre"
+		"[english]ClientMod_NameSizeRadar"		"Name size"
+		
+		"ClientMod_DotScaleRadar"		"Escala del jugador"
+		"[english]ClientMod_DotScaleRadar"		"Player scale"
+		
+		"ClientMod_DotAlphaRadar"		"Transparencia del jugador"
+		"[english]ClientMod_DotAlphaRadar"		"Player alpha"
+		
+		"ClientMod_ViewModelFov"		"Largo de brazos"
+		"[english]ClientMod_ViewModelFov"		"ViewModel Fov"
+		
+		"ClientMod_ViewModelFov_ToolTip"		"Determina la lejanía del arma"
+		"[english]ClientMod_ViewModelFov_ToolTip"		"Long arms"
+		
+		"ClientMod_RadioVolumeOther"		"Volumen de la radio"
+		"[english]ClientMod_RadioVolumeOther"		"Radio volume"
+		
+		"ClientMod_RadioEventVolumeOther"		"Volumen de eventos"
+		"[english]ClientMod_RadioEventVolumeOther"		"Event volume"
+		
+		"ClientMod_RagdollRemoveOther"		"Remover cuerpos"
+		"[english]ClientMod_RagdollRemoveOther"		"Remove ragdoll"
+		
+		"ClientMod_HudBackgroundOther"		"Fondo del Hud"
+		"[english]ClientMod_HudBackgroundOther"		"Hud background"
+		
+		"ClientMod_HudColored"		"Color del Hud"
+		"[english]ClientMod_HudColored"		"Colored Hud"
+		
+		"ClientMod_ScoreboardOther"		"Nuevo marcador"
+		"[english]ClientMod_ScoreboardOther"		"New scoreboard"
+		
+		"ClientMod_MotdOther"		"Deshabilitar motd"
+		"[english]ClientMod_MotdOther"		"Disable motd"
+		
+		"ClientMod_RawInputOther"		"Mouse raw input"
+		"[english]ClientMod_RawInputOther"		"Mouse raw input"
+		
+		"ClientMod_ChatTimestampOther"		"Horario en el chat"
+		"[english]ClientMod_ChatTimestampOther"		"Chat Timestamp"
+		
+		"ClientMod_FireInTheHoleOther"		"¡Todos a cubierto!"
+		"[english]ClientMod_FireInTheHoleOther"		"Fire In The Hole"
+		
+		"ClientMod_FireInTheHoleDisabledOther"		"Deshabilitado"
+		"[english]ClientMod_FireInTheHoleDisabledOther"		"Disabled"
+		
+		"ClientMod_FireInTheHoleStandardOther"		"Estándar"
+		"[english]ClientMod_FireInTheHoleStandardOther"		"Standard"
+		
+		"ClientMod_FireInTheHoleOnlyChatOther"		"Solo chat"
+		"[english]ClientMod_FireInTheHoleOnlyChatOther"		"Only chat"
+		
+		"ClientMod_FireInTheHoleOnlySoundOther"		"Solo sonido"
+		"[english]ClientMod_FireInTheHoleOnlySoundOther"		"Only sound"
+		
+		"ClientMod_RagdollRemoveOtherToolTip"		"Luego de cuantos segundos se remueven los cuerpos. -1 no remover"
+		"[english]ClientMod_RagdollRemoveOtherToolTip"		"Time to remove ragdoll. -1 disable remove."
+		
+		"ClientMod_RadioEventVolumeOtherToolTip"		"Final de ronda, plantación de bomba y otros"
+		"[english]ClientMod_RadioEventVolumeOtherToolTip"		"Round end, bomb plant and other.."
+		
+		"ClientMod_TTE_C4"		"Tiempo de explosión C4"
+		"[english]ClientMod_TTE_C4"		"Time to explosion C4"
+		
+		"ClientMod_TTE_C4_ToolTip"		"Se muestra en el temporizador de ronda"
+		"[english]ClientMod_TTE_C4_ToolTip"		"Override round time panel."
+		
+		"ClientMod_TTD_C4"		"Tiempo de desactivación C4"
+		"[english]ClientMod_TTD_C4"		"Time to end defuse C4"
+		
+		"ClientMod_TTD_C4_ToolTip"		"Se muestra en la barra de desactivación"
+		"[english]ClientMod_TTD_C4_ToolTip"		"Displayed on progress bar."
+
+		"ClientMod_EnteredTheGame"	"%s1 entró al server"
+		"[english]ClientMod_EnteredTheGame"	"%s1 entered the game"
+		
+		"ClientMod_NoBorder"		"Modo ventana sin bordes"
+		"[english]ClientMod_NoBorder"		"Borderless window mode"
+		
+		"ClientMod_Discord"		"Actividad en Discord"
+		"ClientMod_Discord_ToolTip"		"Muestra en tu estado el juego y servidor actual"
+		
+		"ClientMod_ToTopMenu"		"Siempre visible"
+		"[english]ClientMod_ToTopMenu"		"Always visible"
+		
+		"ClientMod_ConsoleTweak"		"Atajo de consola"
+		"[english]ClientMod_ConsoleTweak"		"Console tweak"
+		
+		"ClientMod_ConsoleTweak_ToolTip"		"Abrir consola sin el menú del juego, como en CSGO"
+		"[english]ClientMod_ConsoleTweak_ToolTip"		"Copy behavior of csgo"
+		
+		"ClientMod_ScreenoverlayDisable"		"Deshabilitar overlays del sevidor"
+		"[english]ClientMod_ScreenoverlayDisable"		"Disable server screen overlay"
+		
+		"ClientMod_NewDeathnotice"		"Estilo 'deathnotice' CSGO"
+		"[english]ClientMod_NewDeathnotice"		"CSGO deathnotice style"
+		
+		"ClientMod_NewDeathnotice_ToolTip"		"Usar comando e_hud_deathnotice_max para incrementar el conteo de líneas"
+		"[english]ClientMod_NewDeathnotice_ToolTip"		"Use convar e_hud_deathnotice_max for increase lines count"
+		
+		"ClientMod_SpreadAltCrosshair"		"Dinámica precisa"
+		"[english]ClientMod_SpreadAltCrosshair"		"Accurate dynamic"
+		
+		"ClientMod_SpreadAltCrosshair_ToolTip"		"Mostrar la propagación de las balas. Use e_crosshair_spread_alt_* cvar para configuraciones detalladas"
+		"[english]ClientMod_SpreadAltCrosshair_ToolTip"		"Show real weapon spread. Use e_crosshair_spread_alt_* cvar for detail settings"
+		
+		"ClientMod_StaticWindowCrosshair"		"Espaciado estático"
+		"[english]ClientMod_StaticWindowCrosshair"		"Static window"
+		
+		"ClientMod_StaticWindowCrosshair_ToolTip"		"El tamaño de la mira es fijo al cambiar entre armas"
+		"[english]ClientMod_StaticWindowCrosshair_ToolTip"		"The size does not change when switching weapons"
+		
+		"ClientMod_BrowserButton"		"BUSCADOR WEB"
+		"[english]ClientMod_BrowserButton"		"WEB BROWSER"
+		
+		"ClientMod_DecalDynamicScaleDisable"		"Desactivar escala dinámina de calcos"
+		"[english]ClientMod_DecalDynamicScaleDisable"		"Disable decal dynamic scale"
+		
+		"ClientMod_DecalDynamicScaleDisable_ToolTip"		"Disparos y otros"
+		"[english]ClientMod_DecalDynamicScaleDisable_ToolTip"		"Shots and other"
+		
+		"ClientMod_AudioMuteFocus"		"Silenciar sonido cuando el juego no esté al frente"
+		"[english]ClientMod_AudioMuteFocus"		"Silence the audio while the game window is in the background"
+		
+		"ClientMod_RagdollDisableGravity"		"Desactivar gravedad en cuerpos"
+		"[english]ClientMod_RagdollDisableGravity"		"Disable ragdoll gravity"
+		
+		"ClientMod_RagdollForce"		"Forzar cuerpos"
+		"[english]ClientMod_RagdollForce"		"Ragdoll Force"
+		
+		"ClientMod_RagdollForce_ToolTip"		"Los cuerpos salen volando"
+		"[english]ClientMod_RagdollForce_ToolTip"		"Ragdolls fly stronger"
+		
+		"GameUI_MouseRaw_ToolTip"	"Leer el movimiento del mouse directamente desde él, omitiendo su configuración en el panel de control y proporcionando un movimiento más confiable del mouse."
+		"[english]GameUI_MouseRaw_ToolTip"	"Raw input reads mouse movement directly from the device, bypassing control panel mouse settings, and providing more reliable mouse movement."
+	}
+}

@@ -1,0 +1,46 @@
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+
+
+<?xml version="1.0" type="translate"?>
+<Translate>
+   <Language text="Español"/>
+   <Token tag="Install_Button" text="INSTALAR"/>
+   <Token tag="Install_ErrorNotAbsolute" text="¡El directorio debe ser absoluto!"/>
+   <Token tag="Install_ErrorNotDir" text="¡Esto no es una carpeta!"/>
+   <Token tag="Install_ErrorNotEmptyDir" text="¡La carpeta debe estar vacía!"/>
+   <Token tag="Install_ErrorInstall" text="Algo interfiere con el trabajo del lanzador."/>
+   <Token tag="Title_Error" text="Error"/>
+   <Token tag="Play_Button" text="JUGAR"/>
+   <Token tag="Launcher_CheckUpdate" text="CHEQUEANDO POR ACTUALIZACIONES DEL LANZADOR..."/>
+   <Token tag="Game_CheckUpdate" text="CHEQUEANDO POR ACTUALIZACIONES DEL JUEGO..."/>
+   <Token tag="Download_Update" text="DESCARGANDO ACTUALIZACIONES..."/>
+   <Token tag="Game_ReadyToPlay" text="¡ESTÁ ACTUALIZADO!"/>
+   <Token tag="Game_Error" text="¡ERROR DE ACTUALIZACIÓN!"/>
+   
+   <Token tag="Settings_DisplayMode" text="Visualización"/>
+   <Token tag="Settings_WindowFullScreen" text="Pantalla Completa"/>
+   <Token tag="Settings_WindowNormal" text="En Ventana"/>
+   <Token tag="Settings_WindowNoBorder" text="Completa Sin Bordes"/>
+   <Token tag="Settings_VideoResolution" text="Resolución de Video"/>
+   <Token tag="Settings_RefreshRate" text="Frecuencia Hz"/>
+   <Token tag="Settings_AspectRatio" text="Aspecto"/>
+   <Token tag="Settings_Default" text="Por Defecto"/>
+   <Token tag="Settings_GameDX" text="DirectX del Juego"/>
+   <Token tag="Settings_LauncherDX" text="DirectX del Lanzador"/>
+   <Token tag="Settings_New" text="Nuevo"/>
+   <Token tag="Settings_LaunchParams" text="Params Lanz"/>
+   
+   <Token tag="Launcher_UpdateRestart" text="Lanzador actualizado.\nPor favor ejecútalo de nuevo."/>
+   <Token tag="Launcher_UpdateError" text="Actualización fallida.\nPor favor reinicie el lanzador."/>
+   <Token tag="Launcher_InvalidPath" text="Caracteres inválidos encontrados. El juego puede no funcionar correctamente.%invalid_path%"/>
+
+</Translate>
