@@ -12,19 +12,21 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 
 <?xml version="1.0" type="translate"?>
 <Translate>
-   <Language text="Español"/>
+   <Language text="Spanish"/>
    <Token tag="Install_Button" text="INSTALAR"/>
    <Token tag="Install_ErrorNotAbsolute" text="¡El directorio debe ser absoluto!"/>
-   <Token tag="Install_ErrorNotDir" text="¡Esto no es una carpeta!"/>
+   <Token tag="Install_ErrorNotDir" text="¡Esta no es una carpeta!"/>
    <Token tag="Install_ErrorNotEmptyDir" text="¡La carpeta debe estar vacía!"/>
    <Token tag="Install_ErrorInstall" text="Algo interfiere con el trabajo del lanzador."/>
    <Token tag="Title_Error" text="Error"/>
    <Token tag="Play_Button" text="JUGAR"/>
-   <Token tag="Launcher_CheckUpdate" text="CHEQUEANDO POR ACTUALIZACIONES DEL LANZADOR..."/>
-   <Token tag="Game_CheckUpdate" text="CHEQUEANDO POR ACTUALIZACIONES DEL JUEGO..."/>
-   <Token tag="Download_Update" text="DESCARGANDO ACTUALIZACIONES..."/>
-   <Token tag="Game_ReadyToPlay" text="¡ESTÁ ACTUALIZADO!"/>
-   <Token tag="Game_Error" text="¡ERROR DE ACTUALIZACIÓN!"/>
+   <Token tag="Launcher_CheckUpdate" text="Buscando actualizaciones del Lanzador..."/>
+   <Token tag="Game_CheckUpdate" text="Buscando actualizaciones del Juego..."/>
+   <Token tag="Download_Update" text="Descargando Actualizaciones..."/>
+   <Token tag="Game_ReadyToPlay" text="¡Está Actualizado!"/>
+   <Token tag="Game_UpdateError" text="¡Error de actualización del juego!"/>
+   <Token tag="Launcher_Unpacking" text="Extrayendo"/>
+   <Token tag="Launcher_UpdateError" text="Error de actualización del lanzador!"/>
    
    <Token tag="Settings_DisplayMode" text="Visualización"/>
    <Token tag="Settings_WindowFullScreen" text="Pantalla Completa"/>
@@ -39,8 +41,9 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
    <Token tag="Settings_New" text="Nuevo"/>
    <Token tag="Settings_LaunchParams" text="Params Lanz"/>
    
-   <Token tag="Launcher_UpdateRestart" text="Lanzador actualizado.\nPor favor ejecútalo de nuevo."/>
-   <Token tag="Launcher_UpdateError" text="Actualización fallida.\nPor favor reinicie el lanzador."/>
-   <Token tag="Launcher_InvalidPath" text="Caracteres inválidos encontrados. El juego puede no funcionar correctamente.%invalid_path%"/>
+   <Token tag="Launcher_AutoplayUpdateRestart" text="Lanzador actualizado.\nEjecútelo nuevamente."/>
+   <Token tag="Launcher_AutoplayUpdateError" text="Actualización fallida.\nReinicie el Lanzador."/>
+   <Token tag="Launcher_InvalidPath" text="Caracteres inválidos hallados. El juego no puede iniciarse.%invalid_path%"/>
+   <Token tag="Launcher_RunAdmin" text="Intente ejecutar ClientMod como Administrador."/>
 
 </Translate>
