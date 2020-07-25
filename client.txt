@@ -11,7 +11,7 @@ replace only "TRANSLATE" text!
 
 "lang"
 {
-	"Language" "TRANSLATE"
+	"Language" "Spanish"
 	"Tokens"
 	{
 		"ClientMod_RedCrosshair"					"Rojo"
@@ -44,7 +44,7 @@ replace only "TRANSLATE" text!
 		"ClientMod_StyleCrosshair"					"Multicolor"
 		"[english]ClientMod_StyleCrosshair"			"Rainbow"
 		
-		"ClientMod_ThicknessDotCrosshair"			"Grosor  del punto"
+		"ClientMod_ThicknessDotCrosshair"			"Grosor del punto"
 		"[english]ClientMod_ThicknessDotCrosshair"	"Thickness dot"
 		
 		"ClientMod_ThicknessCrosshair"				"Grosor"
@@ -68,10 +68,10 @@ replace only "TRANSLATE" text!
 		"ClientMod_SpreadCrosshair"						"Espaciado"
 		"[english]ClientMod_SpreadCrosshair"			"Window size"
 		
-		"ClientMod_DynamicCrosshairToolTip"				"Expansión de la mira cuando corres y saltas"
+		"ClientMod_DynamicCrosshairToolTip"				"Expansión de la mira mientras corres y saltas"
 		"[english]ClientMod_DynamicCrosshairToolTip"	"Expansion of crosshair while running and jumping"
 		
-		"ClientMod_SniperCrosshairToolTip"				"Exhibir mira en rifles de francotirador"
+		"ClientMod_SniperCrosshairToolTip"				"Mostrar mira en rifles de francotirador"
 		"[english]ClientMod_SniperCrosshairToolTip"		"Show crosshair on sniper rifle"
 		
 		"ClientMod_CrosshairPage"					"Mira"
@@ -92,7 +92,7 @@ replace only "TRANSLATE" text!
 		"ClientMod_GreenRadar"						"Verde"
 		"[english]ClientMod_GreenRadar"				"Green"
 		
-		"ClientMod_CenterRadar"						"Centrado"
+		"ClientMod_CenterRadar"						"Siempre Centrado"
 		"[english]ClientMod_CenterRadar"			"Always centering"
 		
 		"ClientMod_ShowNameRadar"					"Mostrar nombre"
@@ -122,10 +122,10 @@ replace only "TRANSLATE" text!
 		"ClientMod_DotAlphaRadar"					"Transparencia del jugador"
 		"[english]ClientMod_DotAlphaRadar"			"Player alpha"
 		
-		"ClientMod_ViewModelFov"					"Largo de brazos"
+		"ClientMod_ViewModelFov"					"ViewModel Fov"
 		"[english]ClientMod_ViewModelFov"			"ViewModel Fov"
 		
-		"ClientMod_ViewModelFov_ToolTip"			"Determina la lejanía del arma"
+		"ClientMod_ViewModelFov_ToolTip"			"Determina el largo de brazos"
 		"[english]ClientMod_ViewModelFov_ToolTip"	"Long arms"
 		
 		"ClientMod_RadioVolumeOther"				"Volumen de la radio"
@@ -142,9 +142,6 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_HudColored"						"Color del Hud"
 		"[english]ClientMod_HudColored"				"Colored Hud"
-		
-		"ClientMod_ScoreboardOther"					"Nuevo marcador"
-		"[english]ClientMod_ScoreboardOther"		"New scoreboard"
 		
 		"ClientMod_MotdOther"						"Deshabilitar motd"
 		"[english]ClientMod_MotdOther"				"Disable motd"
@@ -187,15 +184,12 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_TTD_C4_ToolTip"					"Se muestra en la barra de desactivación"
 		"[english]ClientMod_TTD_C4_ToolTip"			"Displayed on progress bar."
-
+        
 		"ClientMod_EnteredTheGame"					"%s1 entró al servidor"
 		"[english]ClientMod_EnteredTheGame"			"%s1 entered the game"
 		
 		"ClientMod_NoBorder"						"Modo ventana sin bordes"
 		"[english]ClientMod_NoBorder"				"Borderless window mode"
-		
-		"ClientMod_Discord"							"Actividad en Discord"
-		"ClientMod_Discord_ToolTip"					"Muestra en tu estado el juego y servidor actual"
 		
 		"ClientMod_ToTopMenu"						"Siempre visible"
 		"[english]ClientMod_ToTopMenu"				"Always visible"
@@ -245,7 +239,7 @@ replace only "TRANSLATE" text!
 		"ClientMod_RagdollForce"					"Forzar cuerpos"
 		"[english]ClientMod_RagdollForce"			"Ragdoll Force"
 		
-		"ClientMod_RagdollForce_ToolTip"			"Impulso de los cuerpos"
+		"ClientMod_RagdollForce_ToolTip"			"Los cuerpos se impulsan más fuerte"
 		"[english]ClientMod_RagdollForce_ToolTip"	"Ragdolls fly stronger"
 		
 		"GameUI_MouseRaw_ToolTip"					"La entrada directa lee el movimiento del ratón directamente desde el dispositivo, eludiendo la configuración del panel de control y proporcionando un movimiento más fiable."
@@ -265,5 +259,11 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_AntiCheat"						"Nota: ClientMod no es un anti-cheat."
 		"[english]ClientMod_AntiCheat"				"Note: ClientMod is not an anti-cheat."
+		
+		"ClientMod_Scoreboard"						"Marcador"
+		"[english]ClientMod_Scoreboard"				"Scoreboard"
+		
+		"ClientMod_ScoreboardClassic"				"Clásico"
+		"[english]ClientMod_ScoreboardClassic"		"Classic"
 	}
 }

@@ -12,38 +12,69 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 
 <?xml version="1.0" type="translate"?>
 <Translate>
-   <Language text="Spanish"/>
-   <Token tag="Install_Button" text="INSTALAR"/>
-   <Token tag="Install_ErrorNotAbsolute" text="¡El directorio debe ser absoluto!"/>
-   <Token tag="Install_ErrorNotDir" text="¡Esta no es una carpeta!"/>
-   <Token tag="Install_ErrorNotEmptyDir" text="¡La carpeta debe estar vacía!"/>
-   <Token tag="Install_ErrorInstall" text="Algo interfiere con el trabajo del lanzador."/>
-   <Token tag="Title_Error" text="Error"/>
-   <Token tag="Play_Button" text="JUGAR"/>
-   <Token tag="Launcher_CheckUpdate" text="Buscando actualizaciones del Lanzador..."/>
-   <Token tag="Game_CheckUpdate" text="Buscando actualizaciones del Juego..."/>
-   <Token tag="Download_Update" text="Descargando Actualizaciones..."/>
-   <Token tag="Game_ReadyToPlay" text="¡Está Actualizado!"/>
-   <Token tag="Game_UpdateError" text="¡Error de actualización del juego!"/>
-   <Token tag="Launcher_Unpacking" text="Extrayendo"/>
-   <Token tag="Launcher_UpdateError" text="Error de actualización del lanzador!"/>
-   
-   <Token tag="Settings_DisplayMode" text="Visualización"/>
-   <Token tag="Settings_WindowFullScreen" text="Pantalla Completa"/>
-   <Token tag="Settings_WindowNormal" text="En Ventana"/>
-   <Token tag="Settings_WindowNoBorder" text="Completa Sin Bordes"/>
-   <Token tag="Settings_VideoResolution" text="Resolución de Video"/>
-   <Token tag="Settings_RefreshRate" text="Frecuencia Hz"/>
-   <Token tag="Settings_AspectRatio" text="Aspecto"/>
-   <Token tag="Settings_Default" text="Por Defecto"/>
-   <Token tag="Settings_GameDX" text="DirectX del Juego"/>
-   <Token tag="Settings_LauncherDX" text="DirectX del Lanzador"/>
-   <Token tag="Settings_New" text="Nuevo"/>
-   <Token tag="Settings_LaunchParams" text="Params Lanz"/>
-   
-   <Token tag="Launcher_AutoplayUpdateRestart" text="Lanzador actualizado.\nEjecútelo nuevamente."/>
-   <Token tag="Launcher_AutoplayUpdateError" text="Actualización fallida.\nReinicie el Lanzador."/>
-   <Token tag="Launcher_InvalidPath" text="Caracteres inválidos hallados. El juego no puede iniciarse.%invalid_path%"/>
-   <Token tag="Launcher_RunAdmin" text="Intente ejecutar ClientMod como Administrador."/>
+	<Language text="Spanish"/>
+    <Token tag="Install_Button" text="INSTALAR"/>
+    <Token tag="Install_ErrorNotAbsolute" text="¡El directorio debe ser absoluto!"/>
+    <Token tag="Install_ErrorNotDir" text="¡Esta no es una carpeta!"/>
+    <Token tag="Install_ErrorNotEmptyDir" text="¡La carpeta debe estar vacía!"/>
+    <Token tag="Install_ErrorInstall" text="Algo interfiere con el trabajo del lanzador."/>
+	<Token tag="Install_ErrorShortcut" text="Error al crear acceso directo."/>
+	<Token tag="Install_ErrorDesktop" text="Error al encontrar la ruta del Escritorio."/>
+	<Token tag="Install_Shortcut" text="Crear acceso directo en escritorio"/>
 
+	<Token tag="Title_Error" text="Error"/>
+	<Token tag="Play_Button" text="JUGAR"/>
+
+	<Token tag="Game_ReadyToPlay" text="¡Está Actualizado!"/>
+
+	<Token tag="Game_UpdateError" text="¡Error de actualización del juego!"/>
+	<Token tag="Launcher_UpdateError" text="¡Error de actualización del lanzador!"/>
+
+	<Token tag="Launcher_Updating" text="Actualizando lanzador"/>
+	<Token tag="Game_Updating" text="Actualizando juego"/>
+	<Token tag="Launcher_CheckUpdate" text="Buscando actualizaciones del lanzador"/>
+	<Token tag="Game_CheckUpdate" text="Buscando actualizaciones del juego"/>
+	<Token tag="Launcher_Remaining" text="Restante"/>
+	<Token tag="Launcher_Preparing" text="Preparando"/>
+	<Token tag="Launcher_Unpacking" text="Extranyendo archivos"/>
+	<Token tag="Launcher_Finalizing" text="Finalizando"/>
+	<Token tag="Launcher_Initializing" text="Inicializando"/>
+	<Token tag="Launcher_Restarting" text="Reiniciando"/>
+
+
+    <Token tag="Settings_DisplayMode" text="Visualización"/>
+    <Token tag="Settings_WindowFullScreen" text="Pantalla Completa"/>
+    <Token tag="Settings_WindowNormal" text="En Ventana"/>
+    <Token tag="Settings_WindowNoBorder" text="Completa Sin Bordes"/>
+    <Token tag="Settings_VideoResolution" text="Resolución de Video"/>
+    <Token tag="Settings_RefreshRate" text="Frecuencia Hz"/>
+    <Token tag="Settings_AspectRatio" text="Aspecto"/>
+    <Token tag="Settings_Default" text="Por Defecto"/>
+    <Token tag="Settings_GameDX" text="DirectX del Juego"/>
+    <Token tag="Settings_LauncherDX" text="DirectX del Lanzador"/>
+	<Token tag="Settings_LauncherScale" text="Escala del Lanzador"/>
+	<Token tag="Settings_New" text="Nuevo"/>
+	<Token tag="Settings_LaunchParams" text="Params Lanzamiento"/>
+
+	<Token tag="Menu_Main" text="Inicio"/>
+	<Token tag="Menu_Updates" text="Actualizaciones"/>
+	<Token tag="Menu_Activity" text="Actividad"/>
+	<Token tag="Menu_Settings" text="Opciones"/>
+	<Token tag="Menu_Mods" text="Mods"/>
+
+	<Token tag="Info_Version" text="Versión"/>
+	<Token tag="Info_Online" text="En línea"/>
+	<Token tag="Info_OnlineToday" text="Total durante hoy"/>
+	<Token tag="Info_OnlinePerDay" text="Total del último día"/>
+
+
+    <Token tag="Launcher_AutoplayUpdateRestart" text="Lanzador actualizado.\nEjecútelo nuevamente."/>
+    <Token tag="Launcher_AutoplayUpdateError" text="Actualización fallida.\nReinicie el lanzador."/>
+    <Token tag="Launcher_InvalidPath" text="Caracteres inválidos hallados. El juego no puede iniciarse.%invalid_path%"/>
+    <Token tag="Launcher_RunAdmin" text="Intente ejecutar ClientMod como Administrador."/>
+
+	<Token tag="Launcher_Beta_CheckBox" text="Lo comprendo"/>
+	<Token tag="Launcher_Beta_Accept" text="Aceptar"/>
+	<Token tag="Launcher_Beta_Cancel" text="Cancelar"/>
 </Translate>
+
