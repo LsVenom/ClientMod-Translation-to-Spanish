@@ -76,5 +76,10 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Launcher_Beta_CheckBox" text="Lo comprendo"/>
 	<Token tag="Launcher_Beta_Accept" text="Aceptar"/>
 	<Token tag="Launcher_Beta_Cancel" text="Cancelar"/>
+	
+	<Token tag="Launcher_Error_Text" text="Intente reiniciar el Lanzador.\nSi el error persiste, envíe el registro al desarrollador."/>
+	<Token tag="Launcher_Error_Log" text="Mostrar registro"/>
+	<Token tag="Launcher_Error_Copy" text="Copiar al portapapeles"/>
+	
 </Translate>
 
