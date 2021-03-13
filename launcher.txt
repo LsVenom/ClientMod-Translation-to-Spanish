@@ -32,12 +32,25 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 
 	<Token tag="Launcher_Updating" text="Actualizando lanzador"/>
 	<Token tag="Game_Updating" text="Actualizando juego"/>
+	<Token tag="Vpk_Updating" text="Actualizando archivos del juego"/>
 	<Token tag="Launcher_CheckUpdate" text="Buscando actualizaciones del lanzador"/>
 	<Token tag="Game_CheckUpdate" text="Buscando actualizaciones del juego"/>
-	<Token tag="Launcher_Remaining" text="Restante"/>
-	<Token tag="Launcher_Preparing" text="Preparando"/>
-	<Token tag="Launcher_Unpacking" text="Extranyendo archivos"/>
-	<Token tag="Launcher_Finalizing" text="Finalizando"/>
+	
+	<Token tag="p2p_queued_for_checking" text="comprobando archivos"/>
+	<Token tag="p2p_checking_files" text="comprobando archivos"/>
+	<Token tag="p2p_downloading_metadata" text="recibiendo datos"/>
+	<Token tag="p2p_downloading" text="descargando"/>
+	<Token tag="p2p_finished" text="finalizado"/>
+	<Token tag="p2p_seeding" text="enviando"/>
+	<Token tag="p2p_allocating" text="asignación de espacio"/>
+	<Token tag="p2p_preparing" text="preparando"/>
+	<Token tag="p2p_unknown" text="desconocido"/>
+	
+	
+	<Token tag="Launcher_Remaining" text="restante"/>
+	<Token tag="Launcher_Preparing" text="preparando"/>
+	<Token tag="Launcher_Unpacking" text="extranyendo archivos"/>
+	<Token tag="Launcher_Finalizing" text="finalizando"/>
 	<Token tag="Launcher_Initializing" text="Inicializando"/>
 	<Token tag="Launcher_Restarting" text="Reiniciando"/>
 
@@ -47,16 +60,21 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
     <Token tag="Settings_WindowNormal" text="En Ventana"/>
     <Token tag="Settings_WindowNoBorder" text="Completa Sin Bordes"/>
     <Token tag="Settings_VideoResolution" text="Resolución de Video"/>
-    <Token tag="Settings_RefreshRate" text="Frecuencia Hz"/>
-    <Token tag="Settings_AspectRatio" text="Aspecto"/>
-    <Token tag="Settings_Default" text="Por Defecto"/>
+    <Token tag="Settings_RefreshRate" text="Tasa de Refresco"/>
+    <Token tag="Settings_AspectRatio" text="Relación de Aspecto"/>
+    <Token tag="Settings_Default" text="Predeterminado"/>
     <Token tag="Settings_GameDX" text="DirectX del Juego"/>
     <Token tag="Settings_LauncherDX" text="DirectX del Lanzador"/>
 	<Token tag="Settings_LauncherScale" text="Escala del Lanzador"/>
 	<Token tag="Settings_New" text="Nuevo"/>
-	<Token tag="Settings_LaunchParams" text="Params Lanzamiento"/>
+	<Token tag="Settings_LaunchParams" text="Parámetros de Lanzamiento"/>
+	<Token tag="Settings_Enabled" text="Habilitado"/>
+	<Token tag="Settings_Disabled" text="Deshabilitado"/>
+	<Token tag="Settings_DownloadServer" text="Servidor de Descarga"/>
+	<Token tag="Settings_UploadSpeed" text="Ratio máximo de contenido compartido"/>
 
 	<Token tag="Menu_Main" text="Inicio"/>
+	<Token tag="Menu_Profile" text="Suscripción"/>
 	<Token tag="Menu_Updates" text="Actualizaciones"/>
 	<Token tag="Menu_Activity" text="Actividad"/>
 	<Token tag="Menu_Settings" text="Opciones"/>
@@ -73,13 +91,44 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
     <Token tag="Launcher_InvalidPath" text="Caracteres inválidos hallados. El juego no puede iniciarse.%invalid_path%"/>
     <Token tag="Launcher_RunAdmin" text="Intente ejecutar ClientMod como Administrador."/>
 
-	<Token tag="Launcher_Beta_CheckBox" text="Lo comprendo"/>
+	<Token tag="Launcher_Beta_CheckBox" text="Lo entiendo"/>
 	<Token tag="Launcher_Beta_Accept" text="Aceptar"/>
 	<Token tag="Launcher_Beta_Cancel" text="Cancelar"/>
 	
 	<Token tag="Launcher_Error_Text" text="Intente reiniciar el Lanzador.\nSi el error persiste, envíe el registro al desarrollador."/>
 	<Token tag="Launcher_Error_Log" text="Mostrar registro"/>
 	<Token tag="Launcher_Error_Copy" text="Copiar al portapapeles"/>
+	
+	<Token tag="Launcher_Info_Vk" text="Grupo de ClientMod en VKontakte.\nPrincipalmente para jugadores de habla rusa."/>
+	<Token tag="Launcher_Info_Discord" text="Servidor de Discord para comunicarse\ncon el desarrollador y otros jugadores."/>
+	<Token tag="Launcher_Info_Patreon" text="Boosty para apoyar el proyecto y\nbeneficiarse de la suscripción."/>
+	
+	<Token tag="Server_NotResponding" text="< no responde >"/>
+	<Token tag="Server_PlayerName" text="Nombre del Jugador"/>
+	<Token tag="Server_Score" text="Puntuación"/>
+	<Token tag="Server_Time" text="Tiempo"/>
+	<Token tag="Server_ServerName" text="Nombre"/>
+	<Token tag="Server_IPAddress" text="Dirección IP"/>
+	<Token tag="Server_Game" text="Juego"/>
+	<Token tag="Server_Map" text="Mapa"/>
+	<Token tag="Server_Server" text="Servidor"/>
+	<Token tag="Server_Players" text="Jugadores"/>
+	<Token tag="Server_Password" text="Contraseña"/>
+	<Token tag="Server_Latency" text="Latencia"/>
+	<Token tag="Server_Connect" text="Conectar"/>
+	
+	<Token tag="Auth_Help_Info" text="Asegúrese de leer las instrucciones!"/>
+	<Token tag="Auth_Help_Info2" text="¿Estás suscrito y no sabes qué hacer?"/>
+	<Token tag="Auth_Help_Button" text="Visite la página de instrucciones"/>
+	<Token tag="Auth_Hint" text="Ingresar token"/>
+	<Token tag="Auth_Button" text="ASOCIADO"/>
+	<Token tag="Auth_Network_Disconnected" text="Sin conexión a ClientModNetwork!"/>
+	<Token tag="Auth_Network_Wait" text="autorización en progreso"/>
+	<Token tag="Auth_Network_TokenNotFound" text="El token está obsoleto!"/>
+	<Token tag="Auth_Network_UnknownError" text="Error desconocido!"/>
+	<Token tag="Auth_Exit" text="Cerrar sesión"/>
+	<Token tag="Auth_TokenPaste" text="Pegar desde el portapapeles"/>
+	<Token tag="Auth_AvatarEdit" text="Editar"/>
 	
 </Translate>
 

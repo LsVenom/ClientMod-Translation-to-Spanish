@@ -200,7 +200,7 @@ replace only "TRANSLATE" text!
 		"ClientMod_ConsoleTweak_ToolTip"			"Abrir consola sin menú del juego, tal como en CSGO"
 		"[english]ClientMod_ConsoleTweak_ToolTip"	"Copy behavior of csgo"
 		
-		"ClientMod_ScreenoverlayDisable"		    "Deshabilitar overlays del sevidor"
+		"ClientMod_ScreenoverlayDisable"		    "Deshabilitar superposición de pantalla"
 		"[english]ClientMod_ScreenoverlayDisable"	"Disable server screen overlay"
 		
 		"ClientMod_NewDeathnotice"					"Estilo 'deathnotice' CSGO"
@@ -265,5 +265,32 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_ScoreboardClassic"				"Clásico"
 		"[english]ClientMod_ScoreboardClassic"		"Classic"
+		
+		"ClientMod_ChatConsole"						"Chat en consola"
+		"[english]ClientMod_ChatConsole"			"Console chat"
+		
+		"ClientMod_ChatConsoleDisabled"				"Deshabilitar"
+		"[english]ClientMod_ChatConsoleDisabled"	"Disabled"
+		
+		"ClientMod_ChatConsoleDefault"				"Predeterminado"
+		"[english]ClientMod_ChatConsoleDefault"		"Default"
+		
+		"ClientMod_ChatConsoleColored"				"Coloreado"
+		"[english]ClientMod_ChatConsoleColored"		"Colored"
+		
+		"ClientMod_ChatSound"						"Sonido de notificaciones del chat"
+		"[english]ClientMod_ChatSound"				"Sound chat notifications"
+		
+		"ClientMod_ImpactEffect"					"Nuevos efectos de impactos"
+		"[english]ClientMod_ImpactEffect"			"New impact effects"
+		
+		"ClientMod_NewBob"							"Nueva animación de balanceo"
+		"[english]ClientMod_NewBob"					"New bobbing animation"
+		
+		"ClientMod_WeaponTracer"					"Trayectorias de balas"
+		"[english]ClientMod_WeaponTracer"			"Bullet tracers"
+		
+		"ClientMod_ShaderAlmostLike"				"Sombras casi como v34"
+		"[english]ClientMod_ShaderAlmostLike"		"Shader almost like v34"
 	}
 }
