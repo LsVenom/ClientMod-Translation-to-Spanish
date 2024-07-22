@@ -26,14 +26,14 @@ replace only "TRANSLATE" text!
 		"ClientMod_AlphaCrosshair"					"Transparencia"
 		"[english]ClientMod_AlphaCrosshair"			"Alpha"
 		
-		"ClientMod_SniperCrosshair"					"Mira en francotirador"
+		"ClientMod_SniperCrosshair"					"Mira con francotirador"
 		"[english]ClientMod_SniperCrosshair"		"Сrosshair on sniper"
 		
 		"ClientMod_DynamicCrosshair"				"Mira dinámica"
 		"[english]ClientMod_DynamicCrosshair"		"Dynamic crosshair"
 		
-		"ClientMod_DynamicShotCrosshair"			"Expansión en disparo"
-		"[english]ClientMod_DynamicShotCrosshair"	"Expansion in shoot
+		"ClientMod_DynamicShotCrosshair"			"Expansión al disparar"
+		"[english]ClientMod_DynamicShotCrosshair"	"Expansion in shoot"
 		
 		"ClientMod_Trash"							""
 		"[english]ClientMod_Trash"					""
@@ -56,22 +56,22 @@ replace only "TRANSLATE" text!
 		"ClientMod_SizeCrosshair"					"Tamaño"
 		"[english]ClientMod_SizeCrosshair"			"Size"
 		
-		"ClientMod_OutlineCrosshair"				"Borde"
+		"ClientMod_OutlineCrosshair"				"Contorno"
 		"[english]ClientMod_OutlineCrosshair"		"Outline"
 		
-		"ClientMod_OutlineColorCrosshair"			"Color del borde"
+		"ClientMod_OutlineColorCrosshair"			"Color del contorno"
 		"[english]ClientMod_OutlineColorCrosshair"	"Outline color"
 		
 		"ClientMod_MainColorCrosshair"				"Color de la mira"
 		"[english]ClientMod_MainColorCrosshair"		"Crosshair color"
 		
-		"ClientMod_SpreadCrosshair"						"Espaciado"
+		"ClientMod_SpreadCrosshair"						"Abertura"
 		"[english]ClientMod_SpreadCrosshair"			"Window size"
 		
 		"ClientMod_DynamicCrosshairToolTip"				"Expansión de la mira mientras corres y saltas"
 		"[english]ClientMod_DynamicCrosshairToolTip"	"Expansion of crosshair while running and jumping"
 		
-		"ClientMod_SniperCrosshairToolTip"				"Mostrar mira en rifles de francotirador"
+		"ClientMod_SniperCrosshairToolTip"				"Mostrar mira con rifle francotirador"
 		"[english]ClientMod_SniperCrosshairToolTip"		"Show crosshair on sniper rifle"
 		
 		"ClientMod_CrosshairPage"					"Mira"
@@ -167,10 +167,10 @@ replace only "TRANSLATE" text!
 		"ClientMod_FireInTheHoleOnlySoundOther"					"Solo sonido"
 		"[english]ClientMod_FireInTheHoleOnlySoundOther"		"Only sound"
 		
-		"ClientMod_RagdollRemoveOtherToolTip"					"Luego de cuantos segundos se remueven los cuerpos. -1 no remover."
+		"ClientMod_RagdollRemoveOtherToolTip"					"Tiempo para remover cuerpos. -1 no remover."
 		"[english]ClientMod_RagdollRemoveOtherToolTip"			"Time to remove ragdoll. -1 disable remove."
 		
-		"ClientMod_RadioEventVolumeOtherToolTip"				"Final de ronda, bomba plantada y otros"
+		"ClientMod_RadioEventVolumeOtherToolTip"				"Final de ronda, bomba plantada y otros.."
 		"[english]ClientMod_RadioEventVolumeOtherToolTip"		"Round end, bomb plant and other.."
 		
 		"ClientMod_TTE_C4"							"Tiempo de explosión C4"
@@ -182,7 +182,7 @@ replace only "TRANSLATE" text!
 		"ClientMod_TTD_C4"							"Tiempo de desactivación C4"
 		"[english]ClientMod_TTD_C4"					"Time to end defuse C4"
 		
-		"ClientMod_TTD_C4_ToolTip"					"Se muestra en la barra de desactivación"
+		"ClientMod_TTD_C4_ToolTip"					"Se muestra en la barra de progreso"
 		"[english]ClientMod_TTD_C4_ToolTip"			"Displayed on progress bar."
         
 		"ClientMod_EnteredTheGame"					"%s1 entró al servidor"
@@ -197,13 +197,13 @@ replace only "TRANSLATE" text!
 		"ClientMod_ConsoleTweak"					"Consola directa"
 		"[english]ClientMod_ConsoleTweak"			"Console tweak"
 		
-		"ClientMod_ConsoleTweak_ToolTip"			"Abrir consola sin menú del juego, tal como en CSGO"
+		"ClientMod_ConsoleTweak_ToolTip"			"Abrir consola sin menú del juego, estilo csgo"
 		"[english]ClientMod_ConsoleTweak_ToolTip"	"Copy behavior of csgo"
 		
 		"ClientMod_ScreenoverlayDisable"		    "Deshabilitar superposición de pantalla"
 		"[english]ClientMod_ScreenoverlayDisable"	"Disable server screen overlay"
 		
-		"ClientMod_NewDeathnotice"					"Estilo 'deathnotice' CSGO"
+		"ClientMod_NewDeathnotice"					"Aviso de muerte estilo CSGO"
 		"[english]ClientMod_NewDeathnotice"			"CSGO deathnotice style"
 		
 		"ClientMod_NewDeathnotice_ToolTip"							"Use el comando e_hud_deathnotice_max para incrementar el conteo de líneas"
@@ -212,16 +212,16 @@ replace only "TRANSLATE" text!
 		"ClientMod_SpreadAltCrosshair"				"Dinámica precisa"
 		"[english]ClientMod_SpreadAltCrosshair"		"Accurate dynamic"
 		
-		"ClientMod_SpreadAltCrosshair_ToolTip"						"Mostrar la propagación de las balas. Use el comando e_crosshair_spread_alt_* para configuraciones detalladas"
+		"ClientMod_SpreadAltCrosshair_ToolTip"						"Mostrar la dispersión real del arma. Use el comando e_crosshair_spread_alt_* para ajustes detallados"
 		"[english]ClientMod_SpreadAltCrosshair_ToolTip"				"Show real weapon spread. Use e_crosshair_spread_alt_* cvar for detail settings"
 		
-		"ClientMod_StaticWindowCrosshair"							"Espaciado estático"
+		"ClientMod_StaticWindowCrosshair"							"Abertura estática"
 		"[english]ClientMod_StaticWindowCrosshair"					"Static window"
 		
 		"ClientMod_StaticWindowCrosshair_ToolTip"					"El tamaño no varía al cambiar entre armas"
 		"[english]ClientMod_StaticWindowCrosshair_ToolTip"			"The size does not change when switching weapons"
 		
-		"ClientMod_BrowserButton"					"BUSCADOR WEB"
+		"ClientMod_BrowserButton"					"NAVEGADOR WEB"
 		"[english]ClientMod_BrowserButton"			"WEB BROWSER"
 		
 		"ClientMod_DecalDynamicScaleDisable"						"Desactivar escala dinámina de calcomanías"
@@ -230,7 +230,7 @@ replace only "TRANSLATE" text!
 		"ClientMod_DecalDynamicScaleDisable_ToolTip"				"Disparos y otros"
 		"[english]ClientMod_DecalDynamicScaleDisable_ToolTip"		"Shots and other"
 		
-		"ClientMod_AudioMuteFocus"					"Silenciar sonido del juego cuando se encuentre en segundo plano"
+		"ClientMod_AudioMuteFocus"					"Silenciar el sonido cuando el juego se encuentre en segundo plano."
 		"[english]ClientMod_AudioMuteFocus"			"Silence the audio while the game window is in the background"
 		
 		"ClientMod_RagdollDisableGravity"			"Desactivar gravedad en cuerpos"
@@ -242,16 +242,16 @@ replace only "TRANSLATE" text!
 		"ClientMod_RagdollForce_ToolTip"			"Los cuerpos se impulsan más fuerte"
 		"[english]ClientMod_RagdollForce_ToolTip"	"Ragdolls fly stronger"
 		
-		"GameUI_MouseRaw_ToolTip"					"La entrada directa lee el movimiento del ratón directamente desde el dispositivo, eludiendo la configuración del panel de control y proporcionando un movimiento más fiable."
+		"GameUI_MouseRaw_ToolTip"					"La entrada directa lee el movimiento del ratón directamente desde el dispositivo, omitiendo los ajustes del panel de control, y proporcionando un movimiento más fiable."
 		"[english]GameUI_MouseRaw_ToolTip"			"Raw input reads mouse movement directly from the device, bypassing control panel mouse settings, and providing more reliable mouse movement."
 		
-		"ClientMod_MotdMuteAudio"					"Mutear sonidos"
+		"ClientMod_MotdMuteAudio"					"Silenciar sonidos"
 		"[english]ClientMod_MotdMuteAudio"			"Mute sounds"
 		
-		"ClientMod_FlashWindow"						"Iluminar la ventana del juego al reaparecer"
+		"ClientMod_FlashWindow"						"Parpadeo de ventana si el jugador resucita"
 		"[english]ClientMod_FlashWindow"			"Flash window if a player is respawn"
 		
-		"ClientMod_FlashWindow_ToolTip"				"Útil por ejemplo, para saber cuando regresar a la partida"
+		"ClientMod_FlashWindow_ToolTip"				"Por ejemplo, es útil para saber cuando regresar al juego"
 		"[english]ClientMod_FlashWindow_ToolTip"	"So for example you can understand when it's time to return to the game"
 		
 		"ClientMod_CircleRadar"						"Círculo"
@@ -269,7 +269,7 @@ replace only "TRANSLATE" text!
 		"ClientMod_ChatConsole"						"Chat en consola"
 		"[english]ClientMod_ChatConsole"			"Console chat"
 		
-		"ClientMod_ChatConsoleDisabled"				"Deshabilitar"
+		"ClientMod_ChatConsoleDisabled"				"Desactivar"
 		"[english]ClientMod_ChatConsoleDisabled"	"Disabled"
 		
 		"ClientMod_ChatConsoleDefault"				"Predeterminado"
@@ -281,16 +281,40 @@ replace only "TRANSLATE" text!
 		"ClientMod_ChatSound"						"Sonido de notificaciones del chat"
 		"[english]ClientMod_ChatSound"				"Sound chat notifications"
 		
-		"ClientMod_ImpactEffect"					"Nuevos efectos de impactos"
+		"ClientMod_ImpactEffect"					"Nuevos efectos de impacto"
 		"[english]ClientMod_ImpactEffect"			"New impact effects"
 		
 		"ClientMod_NewBob"							"Nueva animación de balanceo"
 		"[english]ClientMod_NewBob"					"New bobbing animation"
 		
-		"ClientMod_WeaponTracer"					"Trayectorias de balas"
+		"ClientMod_WeaponTracer"					"Trayectoria de balas"
 		"[english]ClientMod_WeaponTracer"			"Bullet tracers"
 		
 		"ClientMod_ShaderAlmostLike"				"Sombras casi como v34"
 		"[english]ClientMod_ShaderAlmostLike"		"Shader almost like v34"
+		
+		"ClientMod_SniperScopeThickness"			"Grosor del visor"
+		"[english]ClientMod_SniperScopeThickness"	"Sniper scope thickness"
+		
+		"ClientMod_SniperScopeBlur"					"Desenfoque del visor"
+		"[english]ClientMod_SniperScopeBlur"		"Sniper scope blur"
+		
+		"ClientMod_AspectRatioMode"					"Modo de relación de aspecto"
+		"[english]ClientMod_AspectRatioMode"		"Aspect Ratio Mode"
+		
+		"ClientMod_WeaponNearEmpty"					"Sonido de arma casi vacía"
+		"[english]ClientMod_WeaponNearEmpty"		"Sound of near empty weapon"
+		
+		"ClientMod_CloseOnBuy"						"Cerrar menú después de comprar"
+		"[english]ClientMod_CloseOnBuy"				"Close buy menu after purchase"
+		
+		"ClientMod_ScreenoverlayDisableToolTip"					"Imágenes a pantalla completa del servidor, a menudo usadas para mostrar una muerte o el final de una ronda"
+		"[english]ClientMod_ScreenoverlayDisableToolTip"		"Full screen images, often used in public to show a kill or the end of a round"
+		
+		"ClientMod_MotdOtherToolTip"							"Ventana de bienvenida. Cuando te unes al servidor, siempre se muestra antes de elegir un equipo"
+		"[english]ClientMod_MotdOtherToolTip"					"Welcome window. When you join the server, it is always displayed before choosing a team"
+		
+		"ClientMod_ChatTimestampOtherToolTip"					"Muestra tu hora local antes de cada mensaje de chat"
+		"[english]ClientMod_ChatTimestampOtherToolTip"			"Displays your local time before every chat message"
 	}
 }
