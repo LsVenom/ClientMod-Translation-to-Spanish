@@ -13,11 +13,11 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 <?xml version="1.0" type="translate"?>
 <Translate>
 	<Language text="Spanish"/>
-    <Token tag="Install_Button" text="INSTALAR"/>
-    <Token tag="Install_ErrorNotAbsolute" text="¡El directorio debe ser absoluto!"/>
-    <Token tag="Install_ErrorNotDir" text="¡Esta no es una carpeta!"/>
-    <Token tag="Install_ErrorNotEmptyDir" text="¡La carpeta debe estar vacía!"/>
-    <Token tag="Install_ErrorInstall" text="Algo interrumpió la instalación.\nLo más probable es que haya sido un antivirus."/>
+	<Token tag="Install_Button" text="INSTALAR"/>
+	<Token tag="Install_ErrorNotAbsolute" text="¡La ruta debe ser absoluta!"/>
+	<Token tag="Install_ErrorNotDir" text="¡Esta no es una carpeta!"/>
+	<Token tag="Install_ErrorNotEmptyDir" text="¡La carpeta debe estar vacía!"/>
+	<Token tag="Install_ErrorInstall" text="Algo interrumpió la instalación.\nLo más probable es que haya sido un antivirus."/>
 	<Token tag="Install_ErrorShortcut" text="Error al crear acceso directo."/>
 	<Token tag="Install_ErrorDesktop" text="Error al encontrar la ruta del Escritorio."/>
 	<Token tag="Install_Shortcut" text="Crear acceso directo en escritorio"/>
@@ -25,17 +25,24 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Title_Error" text="Error"/>
 	<Token tag="Play_Button" text="JUGAR"/>
 	<Token tag="Restart_Button" text="REINICIAR"/>
+	<Token tag="Update_Button" text="ACTUALIZAR"/>
 
-	<Token tag="Game_ReadyToPlay" text="¡ESTÁ ACTUALIZADO!"/>
+	<Token tag="UpdateCheck" text="Comprobando actualizaciones"/>
+	<Token tag="UpdateError" text="¡Error de actualización!"/>
 
-	<Token tag="Game_UpdateError" text="¡Error de actualización del juego!"/>
-	<Token tag="Launcher_UpdateError" text="¡Error de actualización del lanzador!"/>
+	<Token tag="UpdatingLauncher" text="Actualizando launcher"/>
+	<Token tag="UpdatingGame" text="Actualizando juego"/>
+	<Token tag="UpdatingResources" text="Actualizando recursos"/>
+	
+	<Token tag="UpdateCheckLauncher" text="Comprobando actualizaciones del launcher"/>
+	<Token tag="UpdateCheckGame" text="Comprobando actualizaciones del juego"/>
+	<Token tag="UpdateCheckResources" text="Comprobando actualizaciones de recursos"/>
 
-	<Token tag="Launcher_Updating" text="Actualizando lanzador"/>
-	<Token tag="Game_Updating" text="Actualizando juego"/>
-	<Token tag="Vpk_Updating" text="Actualizando archivos del juego"/>
-	<Token tag="Launcher_CheckUpdate" text="Buscando actualizaciones del lanzador"/>
-	<Token tag="Game_CheckUpdate" text="Buscando actualizaciones del juego"/>
+	<Token tag="UpdateRemaining" text="restante"/>
+	<Token tag="UpdatePreparing" text="preparando"/>
+	<Token tag="UpdateInitializing" text="Iniciando"/>
+	<Token tag="UpdateRestarting" text="Reiniciando"/>
+  
 	
 	<Token tag="p2p_queued_for_checking" text="verificando archivos"/>
 	<Token tag="p2p_checking_files" text="verificando archivos"/>
@@ -48,27 +55,18 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="p2p_unknown" text="desconocido"/>
 	<Token tag="p2p_timeout" text="buscando pares"/>
 	
-	
-	<Token tag="Launcher_Remaining" text="restante"/>
-	<Token tag="Launcher_Preparing" text="preparando"/>
-	<Token tag="Launcher_Unpacking" text="extranyendo archivos"/>
-	<Token tag="Launcher_Finalizing" text="finalizando"/>
-	<Token tag="Launcher_Initializing" text="inicializando"/>
-	<Token tag="Launcher_Restarting" text="reiniciando"/>
 
-
-    <Token tag="Settings_DisplayMode" text="Presentación"/>
-    <Token tag="Settings_WindowFullScreen" text="Pantalla Completa"/>
-    <Token tag="Settings_WindowNormal" text="En Ventana"/>
-    <Token tag="Settings_WindowNoBorder" text="Completa Sin Bordes"/>
-    <Token tag="Settings_VideoResolution" text="Resolución de Video"/>
-    <Token tag="Settings_RefreshRate" text="Tasa de Refresco"/>
-    <Token tag="Settings_AspectRatio" text="Relación de Aspecto"/>
-    <Token tag="Settings_Default" text="Predeterminado"/>
-	<Token tag="Settings_GraphicsAPI" text="API de Gráficos"/>
-	<Token tag="Settings_ExGraphicsAPI" text="API de Gráficos extendida"/>
-	<Token tag="Settings_LauncherDX" text="DirectX del Lanzador"/>
-	<Token tag="Settings_LauncherScale" text="Escala del lanzador"/>
+	<Token tag="Settings_DisplayMode" text="Modo de Pantalla"/>
+	<Token tag="Settings_WindowFullScreen" text="Pantalla Completa"/>
+	<Token tag="Settings_WindowNormal" text="Ventana"/>
+	<Token tag="Settings_WindowNoBorder" text="Completa Sin Bordes"/>
+	<Token tag="Settings_VideoResolution" text="Resolución de Video"/>
+	<Token tag="Settings_RefreshRate" text="Tasa de Refresco"/>
+	<Token tag="Settings_AspectRatio" text="Relación de Aspecto"/>
+	<Token tag="Settings_Default" text="Predeterminado"/>
+	<Token tag="Settings_GameGraphicsAPI" text="API Gráfica del Juego"/>
+	<Token tag="Settings_LauncherGraphicsAPI" text="API Gráfica del Launcher"/>
+	<Token tag="Settings_LauncherScale" text="Escala del Launcher"/>
 	<Token tag="Settings_New" text="Nuevo"/>
 	<Token tag="Settings_LaunchParams" text="Parámetros de Lanzamiento"/>
 	<Token tag="Settings_Enabled" text="Habilitado"/>
@@ -78,45 +76,37 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Settings_CefAcceleration" text="Aceleración del Navegador"/>
 	<Token tag="Settings_CefAcceleration_Cpu" text="CPU"/>
 	<Token tag="Settings_CefAcceleration_GpuPartially" text="GPU (parcial)"/>
-	<Token tag="Settings_CefAcceleration_GpuFull" text="GPU (completo, 60fps)"/>
-	<Token tag="Settings_CefAcceleration_Gpu120" text="GPU (completo, 120fps)"/>
-	<Token tag="Settings_RestartRequired" text="Reinicio del lanzador requerido"/>
+	<Token tag="Settings_CefAcceleration_GpuFull" text="GPU (completa, 60fps)"/>
+	<Token tag="Settings_CefAcceleration_Gpu120" text="GPU (completa, 120fps)"/>
+	<Token tag="Settings_RestartRequired" text="Reinicio del launcher requerido"/>
+	<Token tag="Settings_DiscordActivity" text="Actividad de Discord"/>
 
 	<Token tag="Menu_Main" text="Inicio"/>
 	<Token tag="Menu_Profile" text="Suscripción"/>
 	<Token tag="Menu_Updates" text="Actualizaciones"/>
 	<Token tag="Menu_Activity" text="Actividad"/>
 	<Token tag="Menu_Settings" text="Opciones"/>
-	<Token tag="Menu_Mods" text="Mods"/>
 
 	<Token tag="Info_Version" text="Versión"/>
 	<Token tag="Info_Online" text="En línea"/>
 	<Token tag="Info_OnlineToday" text="Total durante hoy"/>
 	<Token tag="Info_OnlinePerDay" text="Total del último día"/>
 
+	<Token tag="Launcher_AutoplayUpdateRestart" text="Actualización encontrada.\nPor favor, ejecútalo de nuevo."/>
+	<Token tag="Launcher_InvalidPath" text="Caracteres inválidos encontrados. El juego no puede iniciarse.%invalid_path%"/>
 
-    <Token tag="Launcher_AutoplayUpdateRestart" text="Lanzador actualizado.\nEjecútelo nuevamente."/>
-    <Token tag="Launcher_AutoplayUpdateError" text="Actualización fallida.\nReinicie el lanzador."/>
-    <Token tag="Launcher_InvalidPath" text="Caracteres inválidos hallados. El juego no puede iniciarse.%invalid_path%"/>
-    <Token tag="Launcher_RunAdmin" text="Intente ejecutar ClientMod como Administrador."/>
-
-	<Token tag="Launcher_Beta_CheckBox" text="Entiendo"/>
-	<Token tag="Launcher_Beta_Accept" text="Aceptar"/>
-	<Token tag="Launcher_Beta_Cancel" text="Cancelar"/>
-	
-	<Token tag="Launcher_Error_Text" text="Intente reiniciar el lanzador.\nSi el error persiste, envíe el registro al desarrollador."/>
-	<Token tag="Launcher_Error_Antivirus" text="Su antivirus está bloqueando la actualización del juego.\nDesactive su antivirus y vuelva a intentarlo.\n\nSi el error persiste, agregue la carpeta del juego\na la exclusión del antivirus y reinicie su PC."/>
-	<Token tag="Launcher_Error_Disk" text="Su disco duro está dañado.\nCompre uno nuevo o use Google para encontrar posibles soluciones."/>
+	<Token tag="Launcher_Error_Text" text="Intenta reiniciar el launcher.\nSi el error persiste, envía el registro al desarrollador."/>
+	<Token tag="Launcher_Error_Antivirus" text="Tu antivirus está bloqueando la actualización del juego.\nDesactiva tu antivirus y vuelve a intentarlo.\n\nSi el error persiste, añade la carpeta del juego\na las exclusiones del antivirus y reinicia tu PC."/>
 	<Token tag="Launcher_Error_Log" text="Mostrar registro"/>
 	<Token tag="Launcher_Error_Copy" text="Copiar al portapapeles"/>
-	<Token tag="Launcher_Error_Timeout" text="No se pudo comprobar las actualizaciones.\n\nVerifique su conexión a Internet\ny que no haya bloqueos del firewall."/>
-	<Token tag="Launcher_Error_DiskSpace" text="No hay suficiente espacio libre en el disco para actualizar el juego."/>
+	<Token tag="Launcher_Error_Timeout" text="No se pudo verificar las actualizaciones.\n\nRevisa tu conexión a Internet\ny que no haya bloqueos en el firewall."/>
+	<Token tag="Launcher_Error_DiskSpace" text="El disco %disk% requiere al menos %size% de espacio libre."/>
 	
-	<Token tag="Launcher_Info_Vk" text="Grupo de ClientMod en VKontakte.\nPrincipalmente para jugadores de habla rusa."/>
-	<Token tag="Launcher_Info_Discord" text="Servidor de Discord para comunicarse\ncon el desarrollador y otros jugadores."/>
-	<Token tag="Launcher_Info_Patreon" text="Boosty para apoyar el proyecto y\nbeneficiarse de la suscripción."/>
+	<Token tag="Launcher_Info_Vk" text="Grupo ClientMod en VKontakte.\nPrincipalmente para jugadores de habla rusa."/>
+	<Token tag="Launcher_Info_Discord" text="Servidor de Discord para comunicación\ncon el desarrollador y otros jugadores."/>
+	<Token tag="Launcher_Info_Boosty" text="Boosty para apoyar el proyecto y\nbeneficiarse de la suscripción."/>
 	
-	<Token tag="Server_NotResponding" text="< sin respuesta >"/>
+	<Token tag="Server_NotResponding" text="< no responde >"/>
 	<Token tag="Server_PlayerName" text="Nombre del Jugador"/>
 	<Token tag="Server_Score" text="Puntaje"/>
 	<Token tag="Server_Time" text="Tiempo"/>
@@ -130,27 +120,29 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Server_Latency" text="Latencia"/>
 	<Token tag="Server_Connect" text="Conectar"/>
 	
-	<Token tag="Auth_Help_Info" text="Asegúrese de leer las instrucciones!"/>
-	<Token tag="Auth_Help_Info2" text="¿Estás suscrito y no sabes qué hacer?"/>
+	<Token tag="Auth_Help_Info" text="¡Asegúrate de leer las instrucciones!"/>
+	<Token tag="Auth_Help_Info2" text="¿Te suscribiste y no sabes qué hacer?"/>
 	<Token tag="Auth_Help_Button" text="Visite la página de instrucciones"/>
-	<Token tag="Auth_Hint" text="Ingresar token"/>
+	<Token tag="Auth_Hint" text="Introduce el token"/>
 	<Token tag="Auth_Button" text="ASOCIAR"/>
-	<Token tag="Auth_Network_Disconnected" text="Sin conexión a ClientModNetwork!"/>
+	<Token tag="Auth_Network_Disconnected" text="¡Sin conexión a ClientModNetwork!"/>
 	<Token tag="Auth_Network_Wait" text="autorización en progreso"/>
-	<Token tag="Auth_Network_TokenNotFound" text="El token está desactualizado!"/>
-	<Token tag="Auth_Network_UnknownError" text="Error desconocido!"/>
+	<Token tag="Auth_Network_TokenNotFound" text="¡El token está obsoleto!"/>
+	<Token tag="Auth_Network_UnknownError" text="¡Error desconocido!"/>
 	<Token tag="Auth_Exit" text="Cerrar sesión"/>
 	<Token tag="Auth_TokenPaste" text="Pegar desde el portapapeles"/>
 	<Token tag="Auth_AvatarEdit" text="Editar"/>
 	
-	<Token tag="Profile_SubscriptionLevel" text="Nivel de suscripción"/>
+	<Token tag="Profile_SubscriptionLevel" text="Nivel de Suscripción"/>
 	<Token tag="Profile_SubscriptionFree" text="Sin suscripción."/>
 	
-	<Token tag="Launcher_Anticheat" text="Anticheat: "/>
-	<Token tag="Launcher_Anticheat_Allowed" text="Afecta la capacidad de conectarse a servidores seguros\ny aumenta la confianza en ti como jugador."/>
-	<Token tag="Launcher_Anticheat_NotAvailable" text="Requiere conexión a ClientModNetwork."/>
-	<Token tag="Launcher_Anticheat_Unsupported" text="Requiere Windows de 64 bits."/>
+	<Token tag="Anticheat" text="Anticheat: "/>
+	<Token tag="Anticheat_NotAvailable" text="No disponible"/>
+	<Token tag="Anticheat_Unsupported" text="No compatible"/>
+	<Token tag="Anticheat_Tooltip_Allowed" text="Afecta la capacidad de conectarse a servidores seguros\ny aumenta la confianza en ti como jugador."/>
+	<Token tag="Anticheat_Tooltip_NotAvailable" text="Requiere conexión a ClientModNetwork."/>
+	<Token tag="Anticheat_Tooltip_Unsupported" text="Requiere Windows de 64 bits."/>
 	
-	<Token tag="Launcher_NotAvailable" text="No disponible"/>
-	<Token tag="Launcher_Unsupported" text="No compatible"/>
 </Translate>
+
+
